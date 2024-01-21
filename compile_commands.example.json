@@ -1,0 +1,114 @@
+[
+    {
+        "directory": "C:\\absolute\\path\\to\\project\\raddebugger\\build",
+        "command": "cl /Od /I..\\src\\ /I..\\local\\ /nologo /FC /Z7 -c ..\\src\\raddbg\\raddbg_main.cpp -o raddbg.exe",
+        "file": "..\\src\\raddbg\\raddbg_main.cpp",
+        "compiler": "cl",
+        "build_type": "debug"
+    },
+    {
+        "directory": "C:\\absolute\\path\\to\\project\\raddebugger\\build",
+        "command": "cl /O2 /DNDEBUG /I..\\src\\ /I..\\local\\ /nologo /FC /Z7 -c ..\\src\\raddbg\\raddbg_main.cpp -o raddbg.exe",
+        "file": "..\\src\\raddbg\\raddbg_main.cpp",
+        "compiler": "cl",
+        "build_type": "release"
+    },
+    {
+        "directory": "C:\\absolute\\path\\to\\project\\raddebugger\\build",
+        "command": "clang -g -O0 -I..\\src\\ -I..\\local\\ -gcodeview -fdiagnostics-absolute-paths -Wall -c ..\\src\\raddbg\\raddbg_main.cpp -o raddbg.exe",
+        "file": "..\\src\\raddbg\\raddbg_main.cpp",
+        "compiler": "clang",
+        "build_type": "debug"
+    },
+    {
+        "directory": "C:\\absolute\\path\\to\\project\\raddebugger\\build",
+        "command": "clang -g -O3 -DNDEBUG -I..\\src\\ -I..\\local\\ -gcodeview -fdiagnostics-absolute-paths -Wall -c ..\\src\\raddbg\\raddbg_main.cpp -o raddbg.exe",
+        "file": "..\\src\\raddbg\\raddbg_main.cpp",
+        "compiler": "clang",
+        "build_type": "release"
+    },
+    {
+        "directory": "C:\\absolute\\path\\to\\project\\raddebugger\\build",
+        "command": "cl /Od /I..\\src\\ /I..\\local\\ /nologo /FC /Z7 -c ..\\src\\raddbg_convert\\pdb\\raddbg_from_pdb_main.c -o raddbg_from_pdb.exe",
+        "file": "..\\src\\raddbg_convert\\pdb\\raddbg_from_pdb_main.c",
+        "compiler": "cl",
+        "build_type": "debug"
+    },
+    {
+        "directory": "C:\\absolute\\path\\to\\project\\raddebugger\\build",
+        "command": "cl /O2 /DNDEBUG /I..\\src\\ /I..\\local\\ /nologo /FC /Z7 -c ..\\src\\raddbg_convert\\pdb\\raddbg_from_pdb_main.c -o raddbg_from_pdb.exe",
+        "file": "..\\src\\raddbg_convert\\pdb\\raddbg_from_pdb_main.c",
+        "compiler": "cl",
+        "build_type": "release"
+    },
+    {
+        "directory": "C:\\absolute\\path\\to\\project\\raddebugger\\build",
+        "command": "clang -g -O0 -I..\\src\\ -I..\\local\\ -gcodeview -fdiagnostics-absolute-paths -Wall -c ..\\src\\raddbg_convert\\pdb\\raddbg_from_pdb_main.c -o raddbg_from_pdb.exe",
+        "file": "..\\src\\raddbg_convert\\pdb\\raddbg_from_pdb_main.c",
+        "compiler": "clang",
+        "build_type": "debug"
+    },
+    {
+        "directory": "C:\\absolute\\path\\to\\project\\raddebugger\\build",
+        "command": "clang -g -O3 -DNDEBUG -I..\\src\\ -I..\\local\\ -gcodeview -fdiagnostics-absolute-paths -Wall -c ..\\src\\raddbg_convert\\pdb\\raddbg_from_pdb_main.c -o raddbg_from_pdb.exe",
+        "file": "..\\src\\raddbg_convert\\pdb\\raddbg_from_pdb_main.c",
+        "compiler": "clang",
+        "build_type": "release"
+    },
+    {
+        "directory": "C:\\absolute\\path\\to\\project\\raddebugger\\build",
+        "command": "cl /Od /I..\\src\\ /I..\\local\\ /nologo /FC /Z7 -c ..\\src\\raddbg_convert\\dwarf\\raddbg_from_dwarf.c -o raddbg_from_dwarf.exe",
+        "file": "..\\src\\raddbg_convert\\dwarf\\raddbg_from_dwarf.c",
+        "compiler": "cl",
+        "build_type": "debug"
+    },
+    {
+        "directory": "C:\\absolute\\path\\to\\project\\raddebugger\\build",
+        "command": "cl /O2 /DNDEBUG /I..\\src\\ /I..\\local\\ /nologo /FC /Z7 -c ..\\src\\raddbg_convert\\dwarf\\raddbg_from_dwarf.c -o raddbg_from_dwarf.exe",
+        "file": "..\\src\\raddbg_convert\\dwarf\\raddbg_from_dwarf.c",
+        "compiler": "cl",
+        "build_type": "release"
+    },
+    {
+        "directory": "C:\\absolute\\path\\to\\project\\raddebugger\\build",
+        "command": "clang -g -O0 -I..\\src\\ -I..\\local\\ -gcodeview -fdiagnostics-absolute-paths -Wall -c ..\\src\\raddbg_convert\\dwarf\\raddbg_from_dwarf.c -o raddbg_from_dwarf.exe",
+        "file": "..\\src\\raddbg_convert\\dwarf\\raddbg_from_dwarf.c",
+        "compiler": "clang",
+        "build_type": "debug"
+    },
+    {
+        "directory": "C:\\absolute\\path\\to\\project\\raddebugger\\build",
+        "command": "clang -g -O3 -DNDEBUG -I..\\src\\ -I..\\local\\ -gcodeview -fdiagnostics-absolute-paths -Wall -c ..\\src\\raddbg_convert\\dwarf\\raddbg_from_dwarf.c -o raddbg_from_dwarf.exe",
+        "file": "..\\src\\raddbg_convert\\dwarf\\raddbg_from_dwarf.c",
+        "compiler": "clang",
+        "build_type": "release"
+    },
+    {
+        "directory": "C:\\absolute\\path\\to\\project\\raddebugger\\build",
+        "command": "cl /Od /I..\\src\\ /I..\\local\\ /nologo /FC /Z7 -c ..\\src\\raddbg_dump\\raddbg_dump.c -o raddbg_dump.exe",
+        "file": "..\\src\\raddbg_dump\\raddbg_dump.c",
+        "compiler": "cl",
+        "build_type": "debug"
+    },
+    {
+        "directory": "C:\\absolute\\path\\to\\project\\raddebugger\\build",
+        "command": "cl /O2 /DNDEBUG /I..\\src\\ /I..\\local\\ /nologo /FC /Z7 -c ..\\src\\raddbg_dump\\raddbg_dump.c -o raddbg_dump.exe",
+        "file": "..\\src\\raddbg_dump\\raddbg_dump.c",
+        "compiler": "cl",
+        "build_type": "release"
+    },
+    {
+        "directory": "C:\\absolute\\path\\to\\project\\raddebugger\\build",
+        "command": "clang -g -O0 -I..\\src\\ -I..\\local\\ -gcodeview -fdiagnostics-absolute-paths -Wall -c ..\\src\\raddbg_dump\\raddbg_dump.c -o raddbg_dump.exe",
+        "file": "..\\src\\raddbg_dump\\raddbg_dump.c",
+        "compiler": "clang",
+        "build_type": "debug"
+    },
+    {
+        "directory": "C:\\absolute\\path\\to\\project\\raddebugger\\build",
+        "command": "clang -g -O3 -DNDEBUG -I..\\src\\ -I..\\local\\ -gcodeview -fdiagnostics-absolute-paths -Wall -c ..\\src\\raddbg_dump\\raddbg_dump.c -o raddbg_dump.exe",
+        "file": "..\\src\\raddbg_dump\\raddbg_dump.c",
+        "compiler": "clang",
+        "build_type": "release"
+    }
+]
